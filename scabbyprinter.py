@@ -99,7 +99,6 @@ def usage():
     print('   scabbyprinter {OPTIONS} {PDF-file/s}')
     print('')
     print('Options:')
-    print('   -m merges the output in accordance to their colour, for easier printing.')
     print('   -v gives an verbose output.')
 
 
