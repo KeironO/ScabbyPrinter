@@ -3,7 +3,7 @@ Scabby Printer
 
 To do:
 
-- [ ] Turn ASCII into bytes to allow for cross compbatibility between Python 2 and 3.
+- [X] Turn ASCII into bytes to allow for cross compbatibility between Python 2 and 3.
 - [ ] Write a PDF to PPM converter
 - [ ] Write a PPM Colour Checker
 - [ ] Get an output.
