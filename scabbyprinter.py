@@ -57,7 +57,7 @@ def checkColour(filename):
 def colourSplitPDF(file, verbose):
     if verbose:
         print('Looking at %s...' % file)
-    tmpdir = tempfile.mkdtemp(prefix = 'pdfcs_')
+    tmpdir = tempfile.mkdtemp(prefix = 'scabbyprinter_')
     gs_opts = '-sDEVICE=ppmraw -dBATCH -dNOPAUSE -dSAFE -r20'
     if not verbose:
         gs_opts += ' -q'
